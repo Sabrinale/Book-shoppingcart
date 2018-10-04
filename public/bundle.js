@@ -22524,12 +22524,12 @@ var BooksList = function (_React$Component) {
                 _react2.default.createElement(
                   'h3',
                   null,
-                  'First slide label'
+                  'Books are a uniquely portable magic.'
                 ),
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                  'If you only read the books that everyone else is reading, you can only think what everyone else is thinking.'
                 )
               )
             ),
@@ -22543,12 +22543,12 @@ var BooksList = function (_React$Component) {
                 _react2.default.createElement(
                   'h3',
                   null,
-                  'Second slide label'
+                  'A book is a dream that you hold in your hand.'
                 ),
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                  'You can’t buy happiness, but you can buy books and that’s kind of the same thing.'
                 )
               )
             )
@@ -23811,7 +23811,7 @@ var Footer = function (_React$Component) {
           _react2.default.createElement(
             "p",
             { className: "footer-text" },
-            "Copyright 2017 BooksShop. All rights reserved"
+            "BookShop"
           )
         )
       );
@@ -23874,7 +23874,7 @@ var Menu = function (_React$Component) {
             _react2.default.createElement(
               'a',
               { href: '/' },
-              'React-Bootstrap'
+              'Readaholic'
             )
           ),
           _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)

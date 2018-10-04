@@ -11,14 +11,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-
 // APIs
 var mongoose = require('mongoose');
-/* mongoose.connect('mongodb://localhost:27017/bookshop');
 
-var db = mongoose.connection; */
-mongoose.connect('mongodb://localhost:27017/bookshop', { useMongoClient: true })
-const db = mongoose.connection;
+/* mongoose.connect('mongodb://localhost:27017/bookshop', { useMongoClient: true })
+const db = mongoose.connection;  */
+mongoose.connect('mongodb://testUser1:testUser1@ds121413.mlab.com:21413/bookshop', { useMongoClient: true })
+const db = mongoose.connection; 
 db.on('error', console.error.bind(console, '# MongoDB - connection error: '));
 
 // --->>> SET UP SESSIONS <<<----
@@ -108,10 +107,7 @@ app.put('/books/:_id', function(req, res){
       }
       res.json(books);
     })
-
 })
-
-  // --->>> GET BOOKS IMAGES API <<<------
   app.get('/images', function(req, res){
 
     const imgFolder = __dirname + '/public/images/';
@@ -134,8 +130,6 @@ app.put('/books/:_id', function(req, res){
       res.json(filesArr);
     })
   })
-
-
 // END APIs
 
 app.listen(3001, function(err){

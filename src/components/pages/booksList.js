@@ -39,15 +39,16 @@ class BooksList extends React.Component{
               <Carousel.Item>
                 <img width={900} height={300} alt="900x300" src="/images/home1.jpg"/>
                 <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  <h3>Books are a uniquely portable magic.</h3>
+                  <p>If you only read the books that everyone else is reading, you can only think what everyone else is thinking.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img width={900} height={300} alt="900x300" src="/images/home2.jpg"/>
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h3>A book is a dream that you hold in your hand.</h3>
+                  <p>
+                    You can’t buy happiness, but you can buy books and that’s kind of the same thing..</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
